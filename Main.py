@@ -16,11 +16,8 @@ import statsmodels.api as sm
 import numpy as np
 import plotly.express as px # interactive charts 
 
-
-#######################
-# Page configuration
 st.set_page_config(
-    page_title="US Population Dashboard",
+    page_title="Portugal Population Dashboard",
     page_icon="🏂",
     layout="wide",
     initial_sidebar_state="expanded")
@@ -76,16 +73,10 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+alt.themes.enable("light")
 
 
-st.set_page_config(
-    page_title="Portugal Population Dashboard",
-    page_icon="🏂",
-    layout="wide",
-    initial_sidebar_state="expanded")
-
-alt.themes.enable("dark")
-
+#######################
 
 #######################
 # Load data
