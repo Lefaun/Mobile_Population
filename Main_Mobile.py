@@ -1,3 +1,25 @@
+#######################
+# Import libraries
+import streamlit as st
+import pandas as pd
+import altair as alt
+import plotly.express as px
+import urllib.request
+#######################
+# Page configuration
+import pandas as pd
+import time
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
+import statsmodels.api as sm
+import numpy as np
+import plotly.express as px # interactive charts 
+
+
+#######################
+# Page configuration
+
 st.set_page_config(
     page_title="PT Population Dashboard",
     page_icon="🏂",
@@ -55,15 +77,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-
-
-st.set_page_config(
-    page_title="Portugal Population Dashboard",
-    page_icon="🏂",
-    layout="wide",
-    initial_sidebar_state="expanded")
-
-alt.themes.enable("dark")
+alt.themes.enable("light")
 
 
 #######################
