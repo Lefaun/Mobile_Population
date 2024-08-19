@@ -181,10 +181,6 @@ with col[1]:
     # Heatmap
 
 
-Paulo Monteiro <vegaspace@gmail.com>
-10:33 AM (0 minutes ago)
-to me
-
 # Heatmap function
 def make_heatmap(input_df, input_y, input_x, input_color, input_color_theme):
     heatmap = alt.Chart(input_df).mark_rect().encode(
