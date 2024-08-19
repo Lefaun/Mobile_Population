@@ -1,5 +1,5 @@
 st.set_page_config(
-    page_title="US Population Dashboard",
+    page_title="PT Population Dashboard",
     page_icon="🏂",
     layout="wide",
     initial_sidebar_state="expanded")
@@ -484,6 +484,3 @@ def perform_regression(time, population):
     X = sm.add_constant(time)
     model = sm.OLS(population, X).fit()
     return model
-
-# Configuração da interface do Streamlit
-#st.set_page_config(page_title="Simulação de População em Tempo Real", layout="wide")
